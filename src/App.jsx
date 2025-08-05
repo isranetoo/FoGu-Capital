@@ -10,8 +10,7 @@ import Contato from "./pages/Contato";
 
 // Componentes da Home
 import Hero from "./components/Hero";
-import Services from "./components/Services";
-import InvestmentCards from "./components/InvestmentCards";
+import UnifiedCards from "./components/UnifiedCards";
 import StrategicAdvisory from "./components/StrategicAdvisory";
 import AiSolutions from "./components/AiSolutions";
 import FocusAreas from "./components/FocusAreas";
@@ -28,8 +27,7 @@ export default function App() {
             element={
               <>
                 <Hero />
-                <Services />
-                <InvestmentCards />
+                <UnifiedCards />
                 <StrategicAdvisory />
                 <AiSolutions />
                 <FocusAreas />
